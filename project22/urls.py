@@ -20,5 +20,7 @@ from app1.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('depttable',depttable,name='depttable'),
-    path('emptable',emptable,name='emptable')
+    path('emptable',emptable,name='emptable'),
+    path('insertemp',insertemp,name='insertemp'),
+    path('insertemp2',insertemp2,name='insertemp2')
 ]
